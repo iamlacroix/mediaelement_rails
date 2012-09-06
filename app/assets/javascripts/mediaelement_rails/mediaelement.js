@@ -1046,12 +1046,12 @@ mejs.HtmlMediaElementShim = {
 			'webm': ['webm','webmv','webma']
 		};
 		var r = ext;
-		$.each(ext_types, function(key, value) {
-			if (value.indexOf(ext) > -1) {
-				r = key;
-				return;
-			}
-		});
+		// $.each(ext_types, function(key, value) {
+		// 	if (value.indexOf(ext) > -1) {
+		// 		r = key;
+		// 		return;
+		// 	}
+		// });
 		return r;
 	},
 
